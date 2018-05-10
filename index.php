@@ -28,7 +28,7 @@ margin: auto;
 <?php
 if(isset($_POST["flag"])){
     $flag=$_POST["flag"];
-    if (strcmp($flag, "123")==0){
+    if (strcmp($flag, "123456")==0){
         session_start();
         $_SESSION["user"]="admin";
     }else {
@@ -46,7 +46,7 @@ if(isset($_POST["flag"])){
 </td>
 <td style="width: 100px"><a href="/test/upload" target="_blank">File Upload</a>
 </td>
-<td style="width: 100px"><a href="#" target="_blank">2</a>
+<td style="width: 100px"><a href="#" target="_blank">-_-</a>
 </td>
 </tr>
 </table>
